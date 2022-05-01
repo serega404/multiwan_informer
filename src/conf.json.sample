@@ -1,0 +1,20 @@
+{
+    "Interfaces":   [
+         {
+            "DisplayName":       "MainInterface",
+            "IpOrInterfaceName": "enp2s0"
+         },
+         {
+            "DisplayName":       "SecondInterface",
+            "IpOrInterfaceName": "enp3s0"
+         }
+        ],
+    "WaitTimeSec":     15,
+    "PingAddr":        "8.8.8.8",
+
+	"TelegramConf": {
+		"BotToken":    "Token",
+		"ChatID":      "Id",
+		"SendSilent":  "false"
+	}
+}
